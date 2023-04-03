@@ -1,0 +1,152 @@
+body{
+    background-color: #9DB1CC;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.header{
+    background-color: #6699cc;
+    border-radius: 12px;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.header img{
+    padding: 15px;
+    border-radius: 50%;
+} 
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: #6a388b;
+}
+
+.card{
+  
+    background-color: #6699cc;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    width: 100%;
+
+    
+
+}
+.card1{
+    background-color: #6699cc;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    padding: 10px;
+    width: 100%;
+
+}
+.bb{
+    background-color: #6699cc;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+button{
+    
+    margin: 20px;
+    background-color: #6699cc;
+    position:relative;
+    border:0;
+    width: 300px;
+    height: 300px;
+    transition: .2s;
+    border-radius: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+button p{
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+}
+button:active {
+    background-color: #7366BD;
+    filter: drop-shadow(0 0 3rem #00ff55);
+    transition: .2s;
+}
+button:active::after, button:active::before {
+    background-color: #7366BD;
+    transition: .2s;
+    filter: drop-shadow(0 0 3rem #00ff55);
+}
+button:active p {
+    filter: drop-shadow(0 0 1rem #02ff2c);
+    transition: .2s;
+    font-family: 'Bebas Neue';
+    font-size: 75px;
+}
+
+.table{
+    width: 100%;
+}
+.table td{
+    margin-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #3e6285;
+}
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+/*.contact{
+
+}*/
+.contact h2{
+    text-align: center;
+}
+.form-group label{
+display: block;
+}
+.form-group input,.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row{
+    display: flex;
+}
+.row>.form-group{
+    width: 50%;
+}
+
+@media (max-width:700px) {
+    .card{
+        display: block;
+    }
+    .header{
+        display: block;
+    }
+}
